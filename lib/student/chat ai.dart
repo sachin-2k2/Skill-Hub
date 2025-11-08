@@ -15,7 +15,7 @@ class _ChatPageState extends State<ChatPage> {
   final List<Map<String, String>> _messages = [];
 
   final String apiKey =
-      "AIzaSyCXj33nrQ-lSQDyqmnrG8Jg9r-PMq6LdUE"; // 🔑 Replace with your Gemini API key
+      ""; // 🔑 Replace with your Gemini API key
   bool _isLoading = false;
 
   /// 💬 Function to send message to Gemini
